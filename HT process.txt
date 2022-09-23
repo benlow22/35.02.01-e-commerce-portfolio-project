@@ -51,7 +51,8 @@
             green gutter    = new line
             blue gutter     = changes line
             red triangle    = deleted line 
-
+            git reset --hard 11c87b92cf    
+            
             if you add to staging area and re-edit, must unstage and restage to save
 
     b) commit all to main branch to start   
@@ -61,6 +62,9 @@
             >>> _message_               = enter commit message 
                 >>> 'Commit'            = commit starting changes
 
+        >>> 'Open Changes' (top right)  = view changes to file
+        >>> 'Inline view'               = all in one doc before you commit
+        
     c) PUBLISH git to github 
         1. >>> 'Source Control' > 'Publish Git' (after you commited) = takes you to github
         2. ### Github 
