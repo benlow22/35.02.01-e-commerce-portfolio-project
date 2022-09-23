@@ -3,7 +3,11 @@
     "emmet.showSuggestionsAsSnippets": true,
     "editor.snippetSuggestions": "top",
     "editor.wordBasedSuggestionsMode": "matchingDocuments",
-    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingQuotes": "languageDefined",
     "auto-close-tag.fullMode": false,
-    "editor.autoClosingDelete": "always"
+    "editor.autoClosingDelete": "auto",
+    "typescript.preferences.quoteStyle": "auto",
+    "template-string-converter.convertOutermostQuotes": true,
+    "markdown.preview.typographer": true,
+    "editor.acceptSuggestionOnEnter": "off"
 }
