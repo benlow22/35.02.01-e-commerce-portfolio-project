@@ -1,0 +1,96 @@
+1. Set up an Express server
+        - Create a directory for your project and set up a basic Express server.
+
+    a) Make directory for project 
+
+        ### terminal
+        >>> cd            = into desired location (/Users/benjaminlow/Compsci/.../.../Projects)
+            >>> mkdir 35.02.01 project     = make directory 
+
+    b) Set up files in Directory 
+        ### 35.02.01 project
+        >>> touch app.js        = create a new file "app.js"
+        >>> npm init            = create package.json file 
+            - follow prompts, press 'ENTER' for default 
+            - entry point = app.js 
+        >>> npm install express = install express to dependencies 
+
+    c) Start Express server in app.js file 
+        >>> code .              = open vsc for directory 
+                                - if not working = in VSC command line >shell command install CODE in PATH
+
+        ### app.js
+        >>> const express = require('express')      = import express module
+            const app = express()                   = create instance of express application = can use methods (get, listen, put, ...) from express
+            const port = 3000                       = store port number = endpoint communication
+
+            app.get('/', (req, res) => {            = create get method at endpoint localhost:port3000/
+                res.send('Hello World!')            = respond with 'Hello World!'
+            })
+
+            app.listen(port, () => {                = starts server, listening on port (3000), success = log
+                console.log(`Example app listening on port ${port}`)
+            })
+
+
+2. Set up version control
+    - Set up Git tracking in your directory and make sure to add and commit changes as you make them.
+
+    a) init git repository in directory 
+        ###terminal 
+        >>> git init            = initialize git repository
+
+        !!! on vsc bottom right should say 'master*' branch 
+            U   = untracked file
+            A   = added to stage area
+
+    b) commit all to main branch to start   
+        ### VSC 
+        >>> 'Source Control' tab        = control + shift + G  
+            >>> '+'                     = add all/files to staging area
+            >>> _message_               = enter commit message 
+                >>> 'Commit'            = commit starting changes
+
+
+
+
+
+
+Design the database
+Plan out the different types of data the application will track and how those pieces of data relate.
+
+Create PostgreSQL database and tables
+Create a PostgreSQL database and add the tables from your design.
+
+Connect the app and database
+Set up your application to be able to interface with the PostgreSQL database.
+
+Plan API endpoints
+Plan the API endpoints that will be used in retrieving data from your database.
+
+Set up user registration
+Add the logic for handling registration of new users.
+
+Set up local login
+Add the logic for handling login using a username and password.
+
+Set up product endpoints
+Add the logic for handling CRUD operations related to products.
+
+Set up user endpoints
+Add the logic for handling CRUD operations related to users and their accounts
+
+Set up cart endpoint
+Add the logic for handling CRUD operations related to a user’s cart.
+
+Set up checkout endpoint
+Add the logic for handling checkout. There is no need to actually try and charge somebody yet; charging will come in a later evolution of this project. For now, we will assume that all charges succeed for ease of development (still add in error handling to account for times it doesn’t).
+
+Set up order endpoints
+Add the logic for handling CRUD operations related to orders.
+
+Document the API
+Document the API you have built by adding and configuring Swagger to your project.
+
+Next Steps
+You’re welcome to expand your API beyond these project tasks and get creative! A future portfolio project will build on top of what you have built here, covering tasks for creating the client side of your e-commerce application. If you don’t want to wait that long, you can try building out a client for your API on your own!

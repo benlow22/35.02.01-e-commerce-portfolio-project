@@ -1,0 +1,6 @@
+{
+    "editor.suggest.showWords": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.snippetSuggestions": "top",
+    "editor.wordBasedSuggestionsMode": "matchingDocuments"
+}
