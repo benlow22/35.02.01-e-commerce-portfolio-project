@@ -64,7 +64,7 @@
 
         >>> 'Open Changes' (top right)  = view changes to file
         >>> 'Inline view'               = all in one doc before you commit
-        
+
     c) PUBLISH git to github 
         1. >>> 'Source Control' > 'Publish Git' (after you commited) = takes you to github
         2. ### Github 
@@ -73,9 +73,9 @@
                     git branch -M main
                     git push -u origin main
 
-
-
-
+    d) Push to github
+        After commiting     >>> 'Source Control' > 'Publish Git' > 'Sync' > 'Push ...'
+        
 
 Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
