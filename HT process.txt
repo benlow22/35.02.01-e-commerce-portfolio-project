@@ -43,6 +43,14 @@
         !!! on vsc bottom right should say 'master*' branch 
             U   = untracked file
             A   = added to stage area
+            M   = Modified (An existing file has been changed)
+            D   = Deleted (a file has been deleted)
+            C   = Conflict (There is a conflict in the file)
+            R   = Renamed (The file has been renamed)
+            S   = Submodule (In repository exists another subrepository)
+            green gutter    = new line
+            blue gutter     = changes line
+            red triangle    = deleted line 
 
     b) commit all to main branch to start   
         ### VSC 
@@ -51,6 +59,7 @@
             >>> _message_               = enter commit message 
                 >>> 'Commit'            = commit starting changes
 
+    c) PUBLISH git to github 
 
 
 
