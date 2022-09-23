@@ -75,7 +75,11 @@
 
     d) Push to github
         After commiting     >>> 'Source Control' > 'Publish Git' > 'Sync' > 'Push ...'
-        
+
+    e) Create a new branch to work on 
+        ###VSC 
+        >>> cmd + shift + p     = preferences 
+            >>> 'Git: Create Branch..."         = creates a new branch and moves you to it. 
 
 Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
