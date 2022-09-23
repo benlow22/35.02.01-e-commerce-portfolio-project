@@ -52,6 +52,8 @@
             blue gutter     = changes line
             red triangle    = deleted line 
 
+            if you add to staging area and re-edit, must unstage and restage to save
+
     b) commit all to main branch to start   
         ### VSC 
         >>> 'Source Control' tab        = control + shift + G  
@@ -60,6 +62,12 @@
                 >>> 'Commit'            = commit starting changes
 
     c) PUBLISH git to github 
+        1. >>> 'Source Control' > 'Publish Git' (after you commited) = takes you to github
+        2. ### Github 
+            >>> 'New repository' (fill out) > 'Create repository' > 
+                >>> git remote add origin https://github.com/benlow22/_git_repo_name_.git
+                    git branch -M main
+                    git push -u origin main
 
 
 
