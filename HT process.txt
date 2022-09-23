@@ -80,6 +80,12 @@
         ###VSC 
         >>> cmd + shift + p     = preferences 
             >>> 'Git: Create Branch..."         = creates a new branch and moves you to it. 
+                "branch name"
+
+    f) move branch
+        >>> "branch name" (bottom left corner)
+            - commits must be made first
+
 
 Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
