@@ -90,6 +90,12 @@
         ### main-branch (master-branch)             = move to the branch you want to merge things on to 
         >>> "..." > "Branch" > "Merge Branch..."
 
+    h) clone repo
+        ### github
+        >>> copy clone url 
+        ### vsc 
+        >>> preferences > git clone > paste url > choose where to save repo
+
 
 Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
