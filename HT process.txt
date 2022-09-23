@@ -86,6 +86,10 @@
         >>> "branch name" (bottom left corner)
             - commits must be made first
 
+    g) merge branch
+        ### main-branch (master-branch)             = move to the branch you want to merge things on to 
+        >>> "..." > "Branch" > "Merge Branch..."
+
 
 Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
