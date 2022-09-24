@@ -97,8 +97,11 @@
         >>> preferences > git clone > paste url > choose where to save repo
 
 
-Design the database
+3. Design the database
 Plan out the different types of data the application will track and how those pieces of data relate.
+        - use sqldbm.com to graphically organize 
+        - helps to draw out too
+        - include relationships = 1to1, 1toM, MtoM 
 
 Create PostgreSQL database and tables
 Create a PostgreSQL database and add the tables from your design.
